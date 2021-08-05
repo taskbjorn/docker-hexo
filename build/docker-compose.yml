@@ -1,0 +1,8 @@
+version: "3.9"
+
+services:
+  hexo_latest:
+    &default-hexo
+    build:
+      context: latest
+    image: taskbjorn/hexo:latest

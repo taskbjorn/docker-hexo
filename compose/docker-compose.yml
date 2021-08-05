@@ -1,0 +1,18 @@
+version: '3.9'
+
+services:
+  hexo:
+    container_name: my_hexo_container
+    image: taskbjorn/hexo:latest
+    ports:
+      - "4000:4000"
+    restart: unless-stopped
+    stdin_open: true
+    tty: true
+    user: 1000:1000
+    volumes:
+      - data:/home/hexo/.hexo
+
+volumes:
+  data:
+    name: my_hexo_data
