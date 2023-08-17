@@ -3,8 +3,6 @@ version: '3.9'
 services:
   hexo:
     container_name: my_hexo_container
-    environment:
-      - HEXO_USE_SERVER=true
     image: taskbjorn/hexo:latest
     ports:
       - "4000:4000"
