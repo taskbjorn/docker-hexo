@@ -8,4 +8,7 @@ fi
 # Populate arguments based on environment variables
 hexo clean
 hexo generate
-hexo server -i -s
+
+if [ "${HEXO_USE_SERVER}" = true ]; then
+	hexo server -i -s
+fi

@@ -1,15 +1,15 @@
 # Quick reference
 
-* **Maintained by:** [taskbjorn](https://git.dsme.cc/taskbjorn)
-* **Official Git repository:** [docker-hexo on Git&Tonic](https://git.dsme.cc/taskbjorn/docker-hexo)
+* **Maintained by:** [taskbjorn](https://github.com/taskbjorn)
+* **Official Git repository:** [docker-hexo on GitHub](https://github.com/taskbjorn/docker-hexo)
 
 # Supported tags and respective Dockerfile links
 
-* [`latest`, `5.2.0`](https://git.dsme.cc/taskbjorn/docker-hexo/build/latest/Dockerfile)
+* [`latest`, `5.2.0`](https://github.com/taskbjorn/docker-hexo/build/latest/Dockerfile)
 
 # What is `docker-hexo`?
 
-![docker-hexo](https://git.dsme.cc/taskbjorn/docker-hexo/src/branch/main/docker-hexo.png)
+![docker-hexo](docker-hexo.png)
 
 `docker-hexo` is a Docker container for the Hexo blog framework based on Alpine Linux.
 

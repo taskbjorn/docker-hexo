@@ -4,8 +4,7 @@ FROM alpine:latest
 RUN apk add --update --no-cache git nodejs npm
 
 # Install Hexo command line interface
-RUN npm config set unsafe-perm true && \
-    npm install hexo-cli hexo-server -g --loglevel=error
+RUN npm install hexo-cli hexo-server -g --loglevel=error --unsafe-perm=true
 
 RUN addgroup -S hexo -g 1000 && \
     adduser -S hexo -g '' -u 1000 -G hexo && \
