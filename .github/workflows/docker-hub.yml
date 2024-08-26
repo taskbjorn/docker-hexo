@@ -1,6 +1,8 @@
 name: Build and publish to Docker Hub
 
-on: push
+on:
+ push:
+ workflow_dispatch:
 
 jobs:
   docker_hub:
