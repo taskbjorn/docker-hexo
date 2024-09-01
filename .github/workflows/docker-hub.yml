@@ -3,6 +3,8 @@ name: Build and publish to Docker Hub
 on:
  push:
  workflow_dispatch:
+ schedule: 
+  - cron: '0 0 * * Sun'
 
 jobs:
   docker_hub:
