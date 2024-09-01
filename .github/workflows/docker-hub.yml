@@ -4,7 +4,7 @@ on:
  push:
  workflow_dispatch:
  schedule: 
-  - cron: '0 0 * * Sun'
+   - cron: '0 0 * * Sun' ## Update here if needed
 
 jobs:
   docker_hub:
